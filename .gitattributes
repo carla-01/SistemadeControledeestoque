@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
+# Configuração para Java
+*.java linguagem=Java
+*.class linguagem=Java
+
+# Configurações padrão importantes
 * text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Evitar detecção errada
+*.xml linguagem=XML
+*.md linguagem=Markdown
+*.yml linguagem=YAML
+*.properties linguagem=Properties

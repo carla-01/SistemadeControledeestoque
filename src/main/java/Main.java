@@ -1,4 +1,4 @@
-import javax.swing.*;
+﻿import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -7,9 +7,9 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 class Mercadinho extends JFrame {
-    private JTable tabelaEstoque;
-    private DefaultTableModel modeloTabela;
-    private ArrayList<Produto> listaProdutos;
+    private final JTable tabelaEstoque;
+    private final DefaultTableModel modeloTabela;
+    private final ArrayList<Produto> listaProdutos;
     private JTextField campoCodigoBarras;
 
     // Construtor
